@@ -1,8 +1,13 @@
 <?php
 
-require_once (__DIR__ . '/vendor/autoload.php');
+require_once(__DIR__ . '/vendor/autoload.php');
 
-use GB\App\Application;
+use GB\App\Application\Application;
+use GB\App\Application\Render;
 
-$app = new Application();
-echo $app->run();
+try {
+  $app = new Application();
+  echo $app->run();
+} catch (Exception $e) {
+  echo Render::renderExceptionPage($e);
+}

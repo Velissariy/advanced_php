@@ -1,0 +1,4 @@
+[2024-15-03T11:26:42.035701+00:00] application_logger.ERROR: Метод actionFsdf не существует в GB\App\Domain\Controllers\UsersController | попытка вызова адреса /users/fsdf [] []
+[2024-15-03T11:28:36.744504+00:00] application_logger.ERROR: Метод actionCreate не существует в GB\App\Domain\Controllers\UsersController | попытка вызова адреса /users/create/ [] []
+[2024-15-03T11:37:46.873137+00:00] application_logger.ERROR: Метод actionDelelte не существует в GB\App\Domain\Controllers\UsersController | попытка вызова адреса /users/delelte/id=53 [] []
+[2024-15-03T11:38:19.152572+00:00] application_logger.ERROR: Метод actionFdsf не существует в GB\App\Domain\Controllers\UsersController | попытка вызова адреса /users/fdsf [] []
